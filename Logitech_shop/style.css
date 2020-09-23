@@ -1,2 +1,15 @@
-.yikes{font-size: 100px;} 
+.yikes{
+font-size: 100px;
+} 
+
+.button{
+background-color: skyblue;
+margin-right: 2px;
+padding: 6px 12px;
+color: black;
+}
+
+ul{
+text-decoration: none;  
+}  
 # = ID
