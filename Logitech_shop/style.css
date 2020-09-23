@@ -3,13 +3,11 @@ font-size: 100px;
 } 
 
 .button{
+text-decoration: none;  
 background-color: skyblue;
 margin-right: 2px;
 padding: 6px 12px;
 color: black;
 }
 
-a {
-text-decoration: none;  
-}  
 # = ID
