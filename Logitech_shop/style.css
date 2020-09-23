@@ -8,6 +8,9 @@ background-color: skyblue;
 margin-right: 2px;
 padding: 6px 12px;
 color: black;
+float: left;
 }
-
+ul{
+list-style-type: none;  
+}  
 # = ID
