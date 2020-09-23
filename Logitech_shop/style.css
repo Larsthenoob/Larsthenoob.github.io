@@ -11,6 +11,7 @@ color: black;
 float: left;
 }
 ul{
+position: relative;
 list-style-type: none;  
     display: block;
 
@@ -21,7 +22,6 @@ list-style-type: none;
     padding-inline-start: 0px;
 }  
 h1{
-position: relative;
 margin: 0;    
 }    
 # = ID
