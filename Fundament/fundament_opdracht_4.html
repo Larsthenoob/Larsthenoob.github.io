@@ -53,10 +53,12 @@
 <dl>
    <dt><span id="spatie"></span></dt>
    <dd>spatie</dd>
-   <dt>&amp;</dt>
+   <dt><span id="en-teken"></span></dt>
    <dd>&-teken</dd>
-   <dt>&lt;</dt>
+   <dt><span id="<-teken"></span></dt>
    <dd><-teken</dd>
+   <dt><span id=">-teken"</span></dt>
+   <dd>>-teken</dd>
 </dl>
 
 <p>Deze pagina is gemaakt door <b>Instruct</b>. Voor vragen ben ik bereikbaar via het volgende emailadres.</p> 
@@ -64,6 +66,9 @@
 
   <script>
     document.getElementById("spatie").textContent= "&nbsp;";
+    document.getElementById("en-teken").textContent= "&amp;";
+    document.getElementById("<-teken").textContent= "&lt;";
+    document.getElementById(">-teken").textContent= "&gt;";  
   </script>        
     </body>
 </html>
