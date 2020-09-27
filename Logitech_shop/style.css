@@ -30,6 +30,7 @@ margin: auto;
 body {
    background-image:
    url('logitech.png');
+   background-repeat: no-repeat;
    font-family: Rockwell, Arial;
    color: white;
    text-align: center;
