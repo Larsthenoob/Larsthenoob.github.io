@@ -1,11 +1,40 @@
 body {
-   background-image:
-   url('logitech.png');
-   
    font-family: Rockwell, Arial;
-   color: white;
-   
+   color: white; 
 }
 a{
   color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("retro-sunrise-4k-ps.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Right {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.center {
+  color: white;
+  background-color: black;
+  text-align:center;
+}
+
+.textcenter {
+  text-align: center;
 }
