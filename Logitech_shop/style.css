@@ -31,6 +31,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  padding: 10px;
 }
 
 .topnav a {
@@ -64,7 +65,7 @@ body {
 
 .wrapper {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 0px;
         grid-template-columns: 30% 40% 30%;
         
     }
@@ -80,6 +81,7 @@ body {
 
     .a {
         grid-column: 1 / span 2;
+        grid-row: 1;
     }
     .b {
         grid-column: 3 ;
