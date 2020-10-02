@@ -43,3 +43,15 @@ a{
   color: #c0cb7f;
   text-decoration: none;
 }
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type: lower-greek;
+}
+
+dt{
+  font-style:  italic;
+}
