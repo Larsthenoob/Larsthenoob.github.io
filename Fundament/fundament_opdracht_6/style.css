@@ -1,9 +1,37 @@
-h1 {
-   color: #e07ae6;
-   font-family: Rockwell, Arial;
+h1, h2 {
+  color: #c0cb7f;
+  font-family: Arial;
+}
+
+p {
+   color: #5e5c56;
+   font-family: Calibri;
 }
 
 body {
-   background-image:
-   url('zwartevilt.png');
+  background-color: black;
+}
+
+ul{
+  color: #5e5c56;
+   font-family: Calibri;
+}
+
+table{
+  color: black;
+  font-family: Calibri;
+  background-color: gray;
+  border: 1px red;
+  border-collapse: collapse;
+ 
+}
+
+td{
+  color: #c0cb7f;
+}
+
+.small{
+ size: 2px;
+ text-align: center;
+ color: #5e5c56;
 }
