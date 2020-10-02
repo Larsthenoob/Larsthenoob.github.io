@@ -18,20 +18,28 @@ ul{
 }
 
 table{
-  color: black;
   font-family: Calibri;
-  background-color: gray;
+  background-color: #222222;
   border: 1px red;
   border-collapse: collapse;
  
 }
 
-td{
-  color: #c0cb7f;
+td, ul, ol, dl{
+  color: #5e5c56;
+}
+
+dt{
+ color: red;
 }
 
 .small{
  size: 2px;
  text-align: center;
  color: #5e5c56;
+}
+
+a{
+  color: #c0cb7f;
+  text-decoration: none;
 }
