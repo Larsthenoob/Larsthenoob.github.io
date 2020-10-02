@@ -41,7 +41,10 @@ dt{
 
 a{
   color: #c0cb7f;
-  text-decoration: none;
+  text-decoration: none;  
+}
+a:hover{
+  text-decoration: underline;
 }
 
 ul{
@@ -54,4 +57,9 @@ ol{
 
 dt{
   font-style:  italic;
+}
+
+tr{
+  font-family: Calibri;
+  text-align: center;
 }

@@ -38,3 +38,12 @@ body {
 .textcenter {
   text-align: center;
 }
+
+a{
+  color: white;
+  text-decoration: none;  
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(252, 236, 12);
+}
