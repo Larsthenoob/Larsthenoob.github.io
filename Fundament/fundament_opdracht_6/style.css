@@ -22,6 +22,7 @@ table{
   background-color: #222222;
   border: 1px red;
   border-collapse: collapse;
+  width: 200px;
  
 }
 
@@ -57,6 +58,7 @@ ol{
 
 dt{
   font-style:  italic;
+  color: #a64626;
 }
 
 tr{
