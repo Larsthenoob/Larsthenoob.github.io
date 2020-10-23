@@ -1,13 +1,13 @@
 .wrapper {
         display: grid;
-        grid-gap: 2px;
+        grid-gap: 10px;
         
     }
 
     .box {
         
         background-color: gray;
-        border-radius: 5px;
+        
         padding: 20px;
         font-size: 150%;
         color: white;
@@ -17,24 +17,40 @@
     .a {
         grid-column: 2 /span 3;
         grid-row: 1;
+        background-color: #00ccff;
     }
     .b {
         grid-column: 1 ;
-        grid-row: 1 / span 3;
+        grid-row: 1 / span 4;
+         background-color: #ffcccc;
     }
     .c {
-        grid-column: 3;
+        grid-column: 4;
         grid-row: 2 /span 3;
+        background-color: #66ff66;
     }
     .d {
         grid-column: 2;
         grid-row: 2 ;
+        background-color: #66ff66;
     }
     .e{
-      grid-column: 4;
-      grid-row: 1;
+      grid-column: 5;
+      grid-row: 1 / span 4;
+      background-color: #ffcccc;
     }
     .f{
-      grid-column: 2 /span 3;
-      grid-row: 3;
+      grid-column: 2 /span 2;
+      grid-row: 4;
+      background-color: #66ff66;
+    }
+    .g{
+      grid-column: 3;
+      grid-row: 2;
+      background-color: #66ff66;
+    }
+    .h{
+      grid-column: 1 /span 5;
+      grid-row: 5;
+      background-color: #ffcccc;
     }
