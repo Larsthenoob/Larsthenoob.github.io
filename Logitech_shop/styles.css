@@ -2,19 +2,18 @@
 body {
   margin: 0;
 }
-
 .wrapper {
         display: grid;
-        grid-gap: 0px;
+        grid-gap: 10px;
         grid-template-columns: 30% 40% 30%;
-        background-color: gray;
+        
         
     }
-
     .box {
-        border-radius: 5px;
-        padding: 20px;
-        font-size: 150%;
+        border-radius: 100px;
+        padding: 10px;
+        font-size: 100%;
+        background-color: gray;
     }
 
     .a {
