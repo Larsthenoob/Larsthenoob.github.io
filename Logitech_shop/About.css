@@ -1,0 +1,108 @@
+/* NAV */
+body {
+  margin: 0;
+  font-family: Rockwell, Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: DodgerBlue;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+/* NAV END */
+/* BACKGROUND */
+body {
+  /* The image used */
+  background-image: url("p/test.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* BACKGROUND END */
+
+.wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 30% 40% 30%;        
+    }
+    .box {
+        padding: 10px;
+        font-size: 100%;
+        background-color: gray;
+    }
+
+    .a {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end : 2;
+    }
+    .b {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end : 2;
+    }
+    .c {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end : 3;
+    }
+    .d {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end : 3;
+    }
+    .e{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end : 4;
+    }
+    .f{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end : 4;
+    }
+    .g {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end : 5;
+    }
+    .h {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end : 5;
