@@ -1,5 +1,9 @@
 body{
   text-align: center;
+  font-family: Brown-pro,Rockwell, Arial;
+}
+article{
+  font-family: Brown-pro,Rockwell, Arial;
 }
 
 /* BACKGROUND */
@@ -20,7 +24,6 @@ body {
 /* NAV */
 body {
   margin: 0;
-  font-family: Rockwell, Arial;
 }
 
 .topnav {

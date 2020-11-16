@@ -1,7 +1,13 @@
 /* grid */
 body {
   margin: 0;
+  font-family: Brown-pro,Rockwell, Arial;
 }
+
+article{
+  font-family: Brown-pro,Rockwell, Arial;
+}
+
 .wrapper {
         display: grid;
         grid-gap: 10px;
