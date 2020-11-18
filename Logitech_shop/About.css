@@ -1,9 +1,11 @@
-/* NAV */
+.right{
+  float: right;
+}
 body {
   margin: 0;
   font-family: Brown-pro,Rockwell, Arial;
 }
-
+/* NAV */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -51,12 +53,12 @@ body {
 .wrapper {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: auto auto auto;        
+        grid-template-columns: 40% auto auto;        
     }
     .box {
         padding: 10px;
         font-size: 100%;
-        background-color: gray;
+        background-color: none;
         text-align: center;
     }
 
@@ -92,7 +94,7 @@ body {
         
     }
     .f{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 6;
         grid-row-end : 7;
@@ -105,7 +107,13 @@ body {
     }
     .h {
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 3;
         grid-row-start: 7;
         grid-row-end : 8;
     }    
+    .i{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 7;
+      grid-row-end : 8;
+    }
