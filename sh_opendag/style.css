@@ -201,5 +201,27 @@ footer{
   width: 100%;
   background-color:white;
   padding: 60px 0px;
-  text-align: center;
+  text-decoration: none;
 }
+
+.left{
+  text-align: left;
+  color: green;
+}
+
+.right{
+text-align: right;
+color: yellow;
+text-decoration: none;
+
+} 
+
+.center{
+  text-align: center;
+  color: red;
+}
+
+a{
+  color: green;
+}
+/*------------footer-----------*/
